@@ -1,26 +1,71 @@
 body{
-    background-color: rgba(12, 45, 231, 0.712);
+   background:rgb(243, 209, 60) ; 
+   /*tipo de fonte do texto*/
+    font-family:verdana;
+     /*delimitar tamanho da tela*/
+    max-width: 1230px;
+    margin: auto;
 }
-.center{
-    text-align: center;
+.photo {
+    border: 1px solid #000;
+    border-radius: 10%;
 }
-/*Texto com justificado*/
-.justify{
-    text-align: justify;
+.minefoto{
+    text-align: center
 }
 
-.container {
-    display: flex;
-    flex-flow: row;           /* quebra linha */
+
+#title {
+    color: rgb(145, 53, 6);
+    font-size: 40px;
+    /*texto todo em letra maicusla no titulo*/
+    text-transform: uppercase;
+}
+a {
+    text-decoration: line;
+}
+
+.center1{
+    text-align: center;
     justify-content: center;
-    align-items: center;
-   
+    margin-bottom: 0%;
+    font-weight: bold;
 }
-/* Deixar a foto com formato rendondo*/
-.estilofoto {
-    width: 350px;                                                   /*largura da foto */
-    height: 350px;                                                  /*altura da foto */
-    margin-bottom: 20px;
-    border-radius: 30%;                                            /*deixar a foto no formato redondo*/
-    box-shadow: 7px 6px 7px #0105ff80, 7px 6px 7px #0631be00; /*sobreado da foto na cor azul*/
+#subtitle  {    
+    color: rgb(0,16,139);
 }
+
+.post_title {
+    color: rgb(26, 93, 6);
+    font-size: 16px;
+    font-style: italic;
+   /*zerando a margem*/
+    margin: 0;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    /*Texto alinhado a direita a # */
+    text-align: right;
+}
+
+.post{
+    background:#fff;
+    padding:15px;
+    /*borda*/
+    border: 3px solid #000;
+    margin: 10px;
+    margin-bottom: 15px;
+     /*foto com contorno redondo eixo y e x*/
+    border-radius: 60px 80px;
+}
+
+.post_content {
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: right;
+}
+post_image {
+    margin-bottom:15px;
+    width: 100%;
+}
+
